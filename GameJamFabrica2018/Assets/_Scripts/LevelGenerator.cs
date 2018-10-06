@@ -28,6 +28,8 @@ public class LevelGenerator : MonoBehaviour
                 GenerateTile(x, y);
             }
         }
+
+       
     }
 
     void GenerateTile(int x, int y)

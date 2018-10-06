@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     //Variaveis Privadas
     private GameMaster _gm;
     private Cinemachine.CinemachineVirtualCamera _cameraPlayer;
+    private Cinemachine.CinemachineVirtualCamera _cameraMiniMap;
     
 
     private List<Ouro> _mina;
@@ -35,8 +36,18 @@ public class Player : MonoBehaviour
     void Start()
     {
         _gm = FindObjectOfType<GameMaster>();
-        _cameraPlayer = FindObjectOfType<Cinemachine.CinemachineVirtualCamera>();
+        var cameras = FindObjectsOfType<Cinemachine.CinemachineVirtualCamera>();
+        foreach (var item in cameras)
+        {
+            if (item.transform.tag == "MainCamera")
+                _cameraPlayer = item;
+
+            if (item.transform.tag == "MiniMap")
+                _cameraMiniMap = item;
+        }
+        
         _cameraPlayer.Follow = transform;
+        _cameraMiniMap.Follow = transform;
         _mina = new List<Ouro>();
     }
 
