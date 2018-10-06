@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(GameMaster))]
 [RequireComponent(typeof(Cinemachine.CinemachineVirtualCamera))]
@@ -20,6 +22,7 @@ public class Player : MonoBehaviour
 
     [Header("Componentes")]
     public SpriteRenderer SR;
+    public TextMeshProUGUI CarrinhoText;
 
     //Variaveis Privadas
     private GameMaster _gm;
@@ -49,6 +52,13 @@ public class Player : MonoBehaviour
         _cameraPlayer.Follow = transform;
         _cameraMiniMap.Follow = transform;
         _mina = new List<Ouro>();
+        var texts = FindObjectsOfType<TextMeshProUGUI>();
+        foreach (var item in texts)
+        {
+            if (item.tag == "CarrinhoText")
+                CarrinhoText = item;
+        }
+        UpdateCarrinhoText();
     }
 
     // Update is called once per frame
@@ -66,7 +76,7 @@ public class Player : MonoBehaviour
             else if (axisX > 0)
                 _flipX = false;
 
-            GetComponent<SpriteRenderer>().flipX = _flipX;
+            SR.flipX = _flipX;
         }
 
 
@@ -95,6 +105,7 @@ public class Player : MonoBehaviour
                 QuantidadeOuroCarrinho = CapacidadeCarrinho;
                 _mineirando = false;
                 ouro.TerminaMineiracao();
+                UpdateCarrinhoText();
                 return;
             }
 
@@ -110,6 +121,7 @@ public class Player : MonoBehaviour
                 if (_dtMinerando > FrequenciaMineracao)
                 {
                     QuantidadeOuroCarrinho += ouro.Mineirar(VelocidadeMineracao);
+                    UpdateCarrinhoText();
                     _dtMinerando = 0;
                 }
             }
@@ -120,6 +132,11 @@ public class Player : MonoBehaviour
                 ouro.TerminaMineiracao();
             }
         }
+    }
+
+    void UpdateCarrinhoText()
+    {
+        CarrinhoText.text = "C: " + Mathf.FloorToInt(QuantidadeOuroCarrinho*100/CapacidadeCarrinho).ToString() + "%";
     }
 
 
@@ -133,6 +150,7 @@ public class Player : MonoBehaviour
                 _gm.DepositaOuro(QuantidadeOuroCarrinho);
                 Instantiate(EfeitoDeposito, transform.position, transform.rotation);
                 QuantidadeOuroCarrinho = 0;
+                UpdateCarrinhoText();
             }
             return;
         }
