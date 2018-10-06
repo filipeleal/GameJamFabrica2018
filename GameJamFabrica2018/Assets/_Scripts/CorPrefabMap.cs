@@ -7,4 +7,5 @@ public class CorPrefabMap
     public GameObject prefab;
     public bool depositoDeOuro;
     public bool desenharOChao;
+    public bool noParent;
 }

@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelGenerator : MonoBehaviour {
+public class LevelGenerator : MonoBehaviour
+{
 
     public Texture2D map;
 
@@ -12,12 +13,13 @@ public class LevelGenerator : MonoBehaviour {
 
     public GameObject Ouro;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         GenerateLevel();
-	}
-	
-	void GenerateLevel()
+    }
+
+    void GenerateLevel()
     {
         for (int x = 0; x < map.width; x++)
         {
@@ -44,18 +46,18 @@ public class LevelGenerator : MonoBehaviour {
         {
             if (corPrefab.cor.Equals(pixelColor))
             {
-                var obj = Instantiate(corPrefab.prefab, position, Quaternion.identity, transform);
+                var obj = Instantiate(corPrefab.prefab, position, Quaternion.identity, corPrefab.noParent ? null : transform);
                 if (corPrefab.depositoDeOuro)
                 {
                     int vaiOuro = Random.Range(0, 2);
-                  
-                    if(vaiOuro == 1)
+
+                    if (vaiOuro == 1)
                     {
                         Instantiate(Ouro, position, Quaternion.identity, obj.transform);
                     }
                 }
 
-                if(corPrefab.desenharOChao)
+                if (corPrefab.desenharOChao)
                     DesenharChao(position);
             }
         }

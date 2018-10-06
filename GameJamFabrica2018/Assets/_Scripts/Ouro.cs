@@ -9,10 +9,12 @@ public class Ouro : MonoBehaviour
 
     public GameObject EfeitoQuandoAcaba;
 
-    public ParticleSystem EfeitoDeMineracao;
+    public GameObject EfeitoDeMineracao;
+
+    public bool Ativo = false;
 
     private bool removed;
-    private ParticleSystem efeitoDeMineracaoAtivo;
+    private GameObject efeitoDeMineracaoAtivo;
 
 
     // Use this for initialization
@@ -34,6 +36,15 @@ public class Ouro : MonoBehaviour
         }
     }
 
+    public void MarcarAtivo(bool ativo)
+    {
+        Ativo = ativo;
+        if (ativo)
+            transform.localScale *= 1.5f;
+        else
+            transform.localScale /= 1.5f;
+    }
+
     public void IniciaMineiracao()
     {
         if(efeitoDeMineracaoAtivo == null && !removed)
@@ -42,8 +53,11 @@ public class Ouro : MonoBehaviour
 
     public void TerminaMineiracao()
     {
-        Destroy(efeitoDeMineracaoAtivo.gameObject);
-        efeitoDeMineracaoAtivo = null;
+        if (efeitoDeMineracaoAtivo != null)
+        {
+            Destroy(efeitoDeMineracaoAtivo.gameObject);
+            efeitoDeMineracaoAtivo = null;
+        }
     }
 
     public int Mineirar(int quantidade)
