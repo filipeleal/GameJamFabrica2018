@@ -148,8 +148,8 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 4932655648373220, guid: cdcc52559c5ba484281da006753c1788, type: 2}
   m_Lens:
-    FieldOfView: 40
-    OrthographicSize: 2.5
+    FieldOfView: 40.24
+    OrthographicSize: 4
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -369,7 +369,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.254717, g: 0.254717, b: 0.254717, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -382,9 +382,9 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 40
+  field of view: 40.24
   orthographic: 1
-  orthographic size: 2.5
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -640,9 +640,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ouros: 0
-  TempoTotal: 15
+  TempoTotal: 10
   TempoEntreShakes: 13.5
   ShakeTime: 1.5
+  _playerSafe: 0
   MainCamera: {fileID: 50646960}
   OurosText: {fileID: 2005029083}
   TempoText: {fileID: 1144726719}
@@ -778,11 +779,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -970,7 +971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c68c7b6cdc85a342bd21784b95435e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 2800000, guid: f606dd2515f50dc4fb4d2ff3c2df5ea0, type: 3}
+  map: {fileID: 2800000, guid: 511b360c83b741743a326479918d092b, type: 3}
   MapaDeCores:
   - cor: {r: 0, g: 0, b: 0, a: 1}
     prefab: {fileID: 1061449513596778, guid: 7594af6e2dab6204aabbb865b6a376e7, type: 2}
@@ -991,6 +992,11 @@ MonoBehaviour:
     prefab: {fileID: 1151954237903286, guid: 8be3abb36324ea04a90b63c3aa5a81a4, type: 2}
     depositoDeOuro: 0
     desenharOChao: 1
+    noParent: 0
+  - cor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    prefab: {fileID: 1754653691162732, guid: f927c6b4e0fb66e4b90686f65a59b360, type: 2}
+    depositoDeOuro: 0
+    desenharOChao: 0
     noParent: 0
   Ground:
   - {fileID: 1355393780110110, guid: edda4fcb14698ab4eaa4256a93ca1adb, type: 2}
@@ -1140,11 +1146,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -1395,11 +1401,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:

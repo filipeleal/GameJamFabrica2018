@@ -19,6 +19,7 @@ public class GameMaster : MonoBehaviour
     private float _tempoParaShake;
 
     private bool _gameOver = false;
+    public bool _playerSafe = false;
 
     public CinemachineVirtualCamera MainCamera;
     private CinemachineBasicMultiChannelPerlin _noiseSettings;
@@ -82,7 +83,7 @@ public class GameMaster : MonoBehaviour
         _gameOver = true;
 
         StopShake();
-        SceneManager.LoadScene("Game Over");
+        SceneManager.LoadScene(_playerSafe ? "You Win": "Game Over");
     }
 
     void Shake()
@@ -109,5 +110,10 @@ public class GameMaster : MonoBehaviour
 
             _tempoParaShake = TempoEntreShakes;
         }
+    }
+
+    public void SetPlayerSafe(bool playerSafe)
+    {
+        _playerSafe = playerSafe;
     }
 }
