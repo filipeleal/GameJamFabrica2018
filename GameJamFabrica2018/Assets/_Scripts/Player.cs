@@ -192,12 +192,23 @@ public class Player : MonoBehaviour
         {
             QuantidadeOuroCarrinho = 0;
             UpdateCarrinhoText();
+            animacaoMineiro.SetBool("danoMineiro", true);
+
+            StartCoroutine(LevaDano());
+
         }else
         {
             //Inserir Game Over aqui
             SceneManager.LoadScene("Game Over");
         }
 
+    }
+
+    IEnumerator LevaDano()
+    {
+
+        yield return new WaitForSeconds(1f);
+        animacaoMineiro.SetBool("danoMineiro", false);
     }
 
     #region Eventos
