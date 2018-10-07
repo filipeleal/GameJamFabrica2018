@@ -25,6 +25,10 @@ public class GameMaster : MonoBehaviour
 
     public CinemachineVirtualCamera MainCamera;
     private CinemachineBasicMultiChannelPerlin _noiseSettings;
+    [Header("Musica")]
+    public AudioSource Musica;
+    [Range(1,3f)]
+    public float MusicaPitch;
 
     [Header("HUD")]
     public TextMeshProUGUI OurosText;
@@ -33,6 +37,7 @@ public class GameMaster : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        
         Ouros = 0;
         OurosText.text = "$0";
         _tempoParaShake = TempoEntreShakes;
@@ -63,6 +68,13 @@ public class GameMaster : MonoBehaviour
             format = "0.00";
             TempoText.color = Color.red;
             Shake();
+
+            if (Musica.pitch < MusicaPitch)
+                Musica.pitch += Time.deltaTime;
+
+            if (Musica.pitch > MusicaPitch)
+                Musica.pitch = MusicaPitch;
+
         }
 
         TempoText.text = TempoTotal.ToString(format);
