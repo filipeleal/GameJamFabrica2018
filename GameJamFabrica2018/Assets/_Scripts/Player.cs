@@ -28,9 +28,10 @@ public class Player : MonoBehaviour
     private GameMaster _gm;
     private Cinemachine.CinemachineVirtualCamera _cameraPlayer;
     private Cinemachine.CinemachineVirtualCamera _cameraMiniMap;
-    
+
 
     private List<Ouro> _mina;
+    private List<Collider2D> _depositos;
     private bool _flipX = false;
     private bool _mineirando = false;
     private float _dtMinerando = 0f;
@@ -48,10 +49,11 @@ public class Player : MonoBehaviour
             if (item.transform.tag == "MiniMap")
                 _cameraMiniMap = item;
         }
-        
+
         _cameraPlayer.Follow = transform;
         _cameraMiniMap.Follow = transform;
         _mina = new List<Ouro>();
+        _depositos = new List<Collider2D>();
         var texts = FindObjectsOfType<TextMeshProUGUI>();
         foreach (var item in texts)
         {
@@ -86,6 +88,9 @@ public class Player : MonoBehaviour
     {
         SR.color = QuantidadeOuroCarrinho >= CapacidadeCarrinho ? Color.red : Color.white;
         Mineirar();
+
+        _gm.SetPlayerSafe(_depositos.Count > 0);
+
     }
 
     void Mineirar()
@@ -100,7 +105,7 @@ public class Player : MonoBehaviour
                 return;
             }
 
-            if(QuantidadeOuroCarrinho >= CapacidadeCarrinho)
+            if (QuantidadeOuroCarrinho >= CapacidadeCarrinho)
             {
                 QuantidadeOuroCarrinho = CapacidadeCarrinho;
                 _mineirando = false;
@@ -136,15 +141,16 @@ public class Player : MonoBehaviour
 
     void UpdateCarrinhoText()
     {
-        CarrinhoText.text = "C: " + Mathf.FloorToInt(QuantidadeOuroCarrinho*100/CapacidadeCarrinho).ToString() + "%";
+        CarrinhoText.text = "C: " + Mathf.FloorToInt(QuantidadeOuroCarrinho * 100 / CapacidadeCarrinho).ToString() + "%";
     }
 
 
     #region Eventos
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.tag == "Deposito")
+        if (col.gameObject.tag == "Deposito")
         {
+            _depositos.Add(col);
             if (QuantidadeOuroCarrinho > 0)
             {
                 _gm.DepositaOuro(QuantidadeOuroCarrinho);
@@ -166,11 +172,16 @@ public class Player : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D col)
     {
+        if (col.gameObject.tag == "Deposito")
+        {
+            _depositos.Remove(col);
+        }
+
         var ouro = col.gameObject.GetComponent<Ouro>();
         if (ouro == null)
             return;
 
-        if (ouro.Ativo) 
+        if (ouro.Ativo)
             ouro.MarcarAtivo(false);
 
         _mina.Remove(ouro);

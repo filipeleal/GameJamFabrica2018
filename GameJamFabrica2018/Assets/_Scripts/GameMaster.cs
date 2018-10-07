@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameMaster : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class GameMaster : MonoBehaviour
     private float _tempoParaShake;
 
     private bool _gameOver = false;
+    public bool _playerSafe = false;
 
     public CinemachineVirtualCamera MainCamera;
     private CinemachineBasicMultiChannelPerlin _noiseSettings;
@@ -43,12 +45,12 @@ public class GameMaster : MonoBehaviour
         TempoTotal -= Time.deltaTime;
 
         _tempoParaShake -= Time.deltaTime;
-        if (_tempoParaShake <= 0f && !_shaking)
+        if (_tempoParaShake <= 0f && !_shaking && TempoTotal > 10)
         {
             Shake();
         }
 
-        if (_tempoParaShake <= 0f && _shaking)
+        if (_tempoParaShake <= 0f && _shaking && TempoTotal > 10)
         {
             StopShake();
         }
@@ -58,6 +60,7 @@ public class GameMaster : MonoBehaviour
         {
             format = "0.00";
             TempoText.color = Color.red;
+            Shake();
         }
 
         TempoText.text = TempoTotal.ToString(format);
@@ -78,26 +81,39 @@ public class GameMaster : MonoBehaviour
     void GameOver()
     {
         _gameOver = true;
-        Debug.Log("GAME OVER");
+
+        StopShake();
+        SceneManager.LoadScene(_playerSafe ? "You Win": "Game Over");
     }
 
     void Shake()
     {
-        _shaking = true;
+        if (!_shaking)
+        {
+            _shaking = true;
 
-        _noiseSettings.m_AmplitudeGain = 0.1f;
-        _noiseSettings.m_FrequencyGain = 2;
+            _noiseSettings.m_AmplitudeGain = 0.1f;
+            _noiseSettings.m_FrequencyGain = 2;
 
-        _tempoParaShake = ShakeTime;
+            _tempoParaShake = ShakeTime;
+        }
     }
 
     void StopShake()
     {
-        _noiseSettings.m_AmplitudeGain = 0;
-        _noiseSettings.m_FrequencyGain = 0;
+        if (_shaking)
+        {
+            _noiseSettings.m_AmplitudeGain = 0;
+            _noiseSettings.m_FrequencyGain = 0;
 
-        _shaking = false;
+            _shaking = false;
 
-        _tempoParaShake = TempoEntreShakes;
+            _tempoParaShake = TempoEntreShakes;
+        }
+    }
+
+    public void SetPlayerSafe(bool playerSafe)
+    {
+        _playerSafe = playerSafe;
     }
 }
