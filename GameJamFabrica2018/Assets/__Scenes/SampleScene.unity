@@ -382,9 +382,9 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 40
+  field of view: 40.24
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -407,7 +407,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 8.028576, y: 15.746178, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -527,7 +527,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 658140136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -971,7 +971,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c68c7b6cdc85a342bd21784b95435e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  map: {fileID: 2800000, guid: 511b360c83b741743a326479918d092b, type: 3}
+  maps:
+  - {fileID: 2800000, guid: 511b360c83b741743a326479918d092b, type: 3}
+  - {fileID: 2800000, guid: 11e1051ae97f36e48a7e8e8c8d645abc, type: 3}
+  - {fileID: 2800000, guid: c3b159c4b7cddf342ba5a5066774355a, type: 3}
   MapaDeCores:
   - cor: {r: 0, g: 0, b: 0, a: 1}
     prefab: {fileID: 1061449513596778, guid: 7594af6e2dab6204aabbb865b6a376e7, type: 2}

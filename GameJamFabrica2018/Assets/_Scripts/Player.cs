@@ -99,6 +99,7 @@ public class Player : MonoBehaviour
 
     void Mineirar()
     {
+        animacaoMineiro.SetBool("mineirandoMineiro", _mineirando);
         if (_mina.Count > 0)
         {
             var ouro = _mina[0];
@@ -141,7 +142,7 @@ public class Player : MonoBehaviour
                 ouro.TerminaMineiracao();
             }
         }
-        animacaoMineiro.SetBool("mineirandoMineiro", _mineirando);
+        
     }
 
     void UpdateCarrinhoText()

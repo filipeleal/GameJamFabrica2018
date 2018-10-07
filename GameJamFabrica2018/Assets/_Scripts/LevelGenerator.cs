@@ -5,7 +5,8 @@ using UnityEngine;
 public class LevelGenerator : MonoBehaviour
 {
 
-    public Texture2D map;
+    public Texture2D[] maps;
+    private Texture2D _map;
 
     public CorPrefabMap[] MapaDeCores;
 
@@ -21,20 +22,21 @@ public class LevelGenerator : MonoBehaviour
 
     void GenerateLevel()
     {
-        for (int x = 0; x < map.width; x++)
+        _map = maps[Random.Range(0, maps.Length - 1)];
+
+        for (int x = 0; x < _map.width; x++)
         {
-            for (int y = 0; y < map.height; y++)
+            for (int y = 0; y < _map.height; y++)
             {
                 GenerateTile(x, y);
             }
         }
 
-       
     }
 
     void GenerateTile(int x, int y)
     {
-        Color pixelColor = map.GetPixel(x, y);
+        Color pixelColor = _map.GetPixel(x, y);
         Vector2 position = new Vector2(x, y);
 
         //Se for transparente, desenhe o chao
