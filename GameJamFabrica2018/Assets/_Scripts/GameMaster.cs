@@ -30,6 +30,9 @@ public class GameMaster : MonoBehaviour
     [Range(1,3f)]
     public float MusicaPitch;
 
+    [Header("SE")]
+    public AudioClip dropCoin;
+
     [Header("HUD")]
     public TextMeshProUGUI OurosText;
     public TextMeshProUGUI TempoText;
@@ -88,8 +91,10 @@ public class GameMaster : MonoBehaviour
 
     public void DepositaOuro(int quantidade)
     {
+        Musica.PlayOneShot(dropCoin);
         Ouros += quantidade;
         OurosText.text = "$" + Ouros.ToString();
+
     }
 
     void GameOver()
