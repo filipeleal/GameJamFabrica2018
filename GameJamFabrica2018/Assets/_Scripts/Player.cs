@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip Andando;
     public AudioClip Minerando;
+    public AudioClip Apanhando;
 
     [Header("Carrinho")]
     public int CapacidadeCarrinho = 50;
@@ -61,9 +62,12 @@ public class Player : MonoBehaviour
             if (item.transform.tag == "MiniMap")
                 _cameraMiniMap = item;
         }
-
+        
         _cameraPlayer.Follow = transform;
-        _cameraMiniMap.Follow = transform;
+
+        if (_cameraMiniMap != null)
+            _cameraMiniMap.Follow = transform;
+
         _mina = new List<Ouro>();
         _depositos = new List<Collider2D>();
         var texts = FindObjectsOfType<TextMeshProUGUI>();
@@ -157,6 +161,9 @@ public class Player : MonoBehaviour
             {
                 _mineirando = true;
 
+                if (!audioSource.isPlaying)
+                    audioSource.PlayOneShot(Minerando);
+
                 ouro.IniciaMineiracao();
                 _dtMinerando += Time.deltaTime;
                 if (_dtMinerando > FrequenciaMineracao)
@@ -193,6 +200,8 @@ public class Player : MonoBehaviour
             QuantidadeOuroCarrinho = 0;
             UpdateCarrinhoText();
             animacaoMineiro.SetBool("danoMineiro", true);
+
+            audioSource.PlayOneShot(Apanhando);
 
             StartCoroutine(LevaDano());
 

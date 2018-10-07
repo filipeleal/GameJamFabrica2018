@@ -404,7 +404,8 @@ MonoBehaviour:
   LimiteVelocidadeCarrinhoCheio: 0.3
   audioSource: {fileID: 82051215708645328}
   Andando: {fileID: 8300000, guid: 892962212a4b74d1c9f578a3b6ea6439, type: 3}
-  Minerando: {fileID: 0}
+  Minerando: {fileID: 8300000, guid: 6f2489d997bad06439f438e4ec644f96, type: 3}
+  Apanhando: {fileID: 8300000, guid: e2beefeb2273f4efe992adf5b8d67c29, type: 3}
   CapacidadeCarrinho: 50
   QuantidadeOuroCarrinho: 0
   CarrinhoSpriteRenderer: {fileID: 212229066593784982}
