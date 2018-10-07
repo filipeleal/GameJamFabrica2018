@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pursuitDistance: 3
-  speedPerSecond: 0.5
+  speedPerSecond: 1
   timeAfterDamage: 5
 --- !u!212 &212905542804697476
 SpriteRenderer:

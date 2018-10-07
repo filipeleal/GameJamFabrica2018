@@ -102,6 +102,7 @@ MonoBehaviour:
   EfeitoDeMineracao: {fileID: 1000011945391522, guid: 8435882a4c07ed448afeb096250511c5,
     type: 2}
   Ativo: 0
+  maxOuroMina: 10
 --- !u!212 &212238724381582268
 SpriteRenderer:
   m_ObjectHideFlags: 1
