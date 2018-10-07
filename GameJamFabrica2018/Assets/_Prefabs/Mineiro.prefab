@@ -56,6 +56,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4069783847674166}
   - component: {fileID: 212979726098076138}
+  - component: {fileID: 95491670812770620}
   m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
@@ -83,7 +84,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1094312911946128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 8.028576, y: 15.746178, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4960625415623762}
@@ -149,6 +150,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 0.75}
   m_EdgeRadius: 0
+--- !u!95 &95491670812770620
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1900350289478670}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2d863d5908dd83343a3b95989dd5eb29, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114677520089752120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -186,6 +205,7 @@ MonoBehaviour:
     type: 2}
   SR: {fileID: 212979726098076138}
   CarrinhoText: {fileID: 0}
+  animacaoMineiro: {fileID: 95491670812770620}
 --- !u!212 &212321483851445508
 SpriteRenderer:
   m_ObjectHideFlags: 1

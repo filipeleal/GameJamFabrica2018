@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     [Header("Componentes")]
     public SpriteRenderer SR;
     public TextMeshProUGUI CarrinhoText;
+    public Animator animacaoMineiro;
 
     //Variaveis Privadas
     private GameMaster _gm;
@@ -68,7 +69,9 @@ public class Player : MonoBehaviour
     {
         var axisX = Input.GetAxis("Horizontal") * Velocidade;
         var axisY = Input.GetAxis("Vertical") * Velocidade;
-
+        var velocidadeMineiro = Mathf.Abs(axisX)+Mathf.Abs(axisY);
+        animacaoMineiro.SetFloat("velocidadeMineiro", velocidadeMineiro);
+                   
         if (!_mineirando)
         {
             transform.position += new Vector3(axisX, axisY);
@@ -137,6 +140,7 @@ public class Player : MonoBehaviour
                 ouro.TerminaMineiracao();
             }
         }
+        animacaoMineiro.SetBool("mineirandoMineiro", _mineirando);
     }
 
     void UpdateCarrinhoText()
