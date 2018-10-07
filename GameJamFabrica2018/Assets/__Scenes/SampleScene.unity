@@ -660,6 +660,7 @@ MonoBehaviour:
   MainCamera: {fileID: 50646960}
   Musica: {fileID: 964710173}
   MusicaPitch: 2
+  dropCoin: {fileID: 8300000, guid: c1f82fbe374712c4ba81ecb23fec50f4, type: 3}
   OurosText: {fileID: 2005029083}
   TempoText: {fileID: 1144726719}
 --- !u!82 &964710173
