@@ -14,6 +14,14 @@ public class Player : MonoBehaviour
     public int VelocidadeMineracao = 1;
     public float FrequenciaMineracao = 1f;
 
+    [Range(0.1f,1f)]
+    public float LimiteVelocidadeCarrinhoCheio = 0.25f;
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip Andando;
+    public AudioClip Minerando;
+
     [Header("Carrinho")]
     public int CapacidadeCarrinho = 50;
     public int QuantidadeOuroCarrinho = 0;
@@ -71,7 +79,7 @@ public class Player : MonoBehaviour
     void FixedUpdate()
     {
         var t = (float)QuantidadeOuroCarrinho / CapacidadeCarrinho;
-        var p = (1f - t) + t * 0.25f;
+        var p = (1f - t) + t * LimiteVelocidadeCarrinhoCheio;
 
         var axisX = Input.GetAxis("Horizontal") * Velocidade * p;
         var axisY = Input.GetAxis("Vertical") * Velocidade * p;
@@ -81,6 +89,9 @@ public class Player : MonoBehaviour
                    
         if (!_mineirando)
         {
+            if (velocidadeMineiro > 0 && !audioSource.isPlaying)
+                audioSource.PlayOneShot(Andando);
+
             transform.position += new Vector3(axisX, axisY);
 
             if (axisX < 0)

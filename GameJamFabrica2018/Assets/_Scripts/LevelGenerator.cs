@@ -12,7 +12,7 @@ public class LevelGenerator : MonoBehaviour
 
     public GameObject[] Ground;
 
-    public GameObject Ouro;
+    public Ouro Ouro;
 
     // Use this for initialization
     void Start()
@@ -31,7 +31,6 @@ public class LevelGenerator : MonoBehaviour
                 GenerateTile(x, y);
             }
         }
-
     }
 
     void GenerateTile(int x, int y)
@@ -57,7 +56,7 @@ public class LevelGenerator : MonoBehaviour
 
                     if (vaiOuro == 1)
                     {
-                        Instantiate(Ouro, position, Quaternion.identity, obj.transform);
+                        var ouro = Instantiate(Ouro, position, Quaternion.identity, obj.transform);
                     }
                 }
 

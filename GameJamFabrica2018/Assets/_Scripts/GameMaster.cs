@@ -14,6 +14,8 @@ public class GameMaster : MonoBehaviour
     [Header("Camera")]
     public float TempoEntreShakes = 10f;
     public float ShakeTime = 1.5f;
+    public float ShakeAmplitude = 0.15f;
+    public float ShakeFrequency = 2f;
 
     private bool _shaking = false;
     private float _tempoParaShake;
@@ -82,6 +84,8 @@ public class GameMaster : MonoBehaviour
     {
         _gameOver = true;
 
+        PlayerPrefs.SetInt("Ouros", Ouros);
+        PlayerPrefs.Save();
         StopShake();
         SceneManager.LoadScene(_playerSafe ? "You Win": "Game Over");
     }
@@ -92,8 +96,8 @@ public class GameMaster : MonoBehaviour
         {
             _shaking = true;
 
-            _noiseSettings.m_AmplitudeGain = 0.1f;
-            _noiseSettings.m_FrequencyGain = 2;
+            _noiseSettings.m_AmplitudeGain = ShakeAmplitude;
+            _noiseSettings.m_FrequencyGain = ShakeFrequency;
 
             _tempoParaShake = ShakeTime;
         }

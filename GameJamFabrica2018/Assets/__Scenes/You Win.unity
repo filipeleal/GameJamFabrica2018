@@ -1764,6 +1764,94 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 208007396}
   m_CullTransparentMesh: 0
+--- !u!1001 &208322852
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 12.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &234421065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,6 +2038,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &252266620
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.55456
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.0041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &269955644
 GameObject:
   m_ObjectHideFlags: 0
@@ -2508,6 +2674,94 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &343629727
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &345950264
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,6 +3233,94 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1001 &376666614
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -10.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1162973713
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &377664782
 GameObject:
   m_ObjectHideFlags: 0
@@ -4956,6 +5298,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &507412951
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1810151453
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &507778117
 GameObject:
   m_ObjectHideFlags: 0
@@ -5049,6 +5448,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &509315104
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.59966
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.66118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &517134509
 GameObject:
   m_ObjectHideFlags: 0
@@ -6586,6 +7063,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &669584962
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.1643
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.66118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &671104282
 GameObject:
   m_ObjectHideFlags: 0
@@ -6865,6 +7420,94 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &682402408
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 8.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.3882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.3882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.3882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -104405513
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &682585086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6958,6 +7601,94 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &698542200
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 10.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1162973713
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &724169322
 GameObject:
   m_ObjectHideFlags: 0
@@ -7609,6 +8340,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &759736578
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.70396
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.66118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &766964881
 GameObject:
   m_ObjectHideFlags: 0
@@ -7888,6 +8697,94 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &788827671
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1162973713
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &789856973
 GameObject:
   m_ObjectHideFlags: 0
@@ -8077,6 +8974,84 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1001 &805567242
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.9851
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.0041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &808759414
 GameObject:
   m_ObjectHideFlags: 0
@@ -8542,6 +9517,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &845804774
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.33604
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.66118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &849159399
 GameObject:
   m_ObjectHideFlags: 0
@@ -8914,6 +9967,250 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &869340499
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.66118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &877248323
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.66118
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &899625778
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -8.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.38679248
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.38679248
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.38679248
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -104405513
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &902680298
 GameObject:
   m_ObjectHideFlags: 0
@@ -10152,6 +11449,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1046509472
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7.4854403
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.0041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1051773445
 GameObject:
   m_ObjectHideFlags: 0
@@ -10245,6 +11620,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1102190591
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.77891
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.0041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1110139654
 GameObject:
   m_ObjectHideFlags: 0
@@ -10866,7 +12319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1153129748
 Transform:
   m_ObjectHideFlags: 0
@@ -11213,7 +12666,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.18867922, g: 0.1583303, b: 0.12370949, a: 0}
+  m_BackGroundColor: {r: 0.3584906, g: 0.32571754, b: 0.29592383, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -11269,6 +12722,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: ee8a2c466d9222e48925982ad81a886e, type: 2}
+--- !u!1001 &1176581832
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4221556906665356, guid: ac5b0a326214d0e4b9745fd4e8973e80, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.0965219
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221556906665356, guid: ac5b0a326214d0e4b9745fd4e8973e80, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 55.461754
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221556906665356, guid: ac5b0a326214d0e4b9745fd4e8973e80, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.09375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221556906665356, guid: ac5b0a326214d0e4b9745fd4e8973e80, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221556906665356, guid: ac5b0a326214d0e4b9745fd4e8973e80, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221556906665356, guid: ac5b0a326214d0e4b9745fd4e8973e80, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221556906665356, guid: ac5b0a326214d0e4b9745fd4e8973e80, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221556906665356, guid: ac5b0a326214d0e4b9745fd4e8973e80, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114764442913312564, guid: ac5b0a326214d0e4b9745fd4e8973e80,
+        type: 2}
+      propertyPath: ContinueText
+      value: 
+      objectReference: {fileID: 413803016}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac5b0a326214d0e4b9745fd4e8973e80, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1178219445
 GameObject:
   m_ObjectHideFlags: 0
@@ -13041,6 +14541,84 @@ SortingGroup:
   m_SortingLayerID: -1162973713
   m_SortingLayer: 1
   m_SortingOrder: 0
+--- !u!1001 &1350281519
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -6.31857
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.0041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1357906057
 GameObject:
   m_ObjectHideFlags: 0
@@ -15328,6 +16906,94 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1617396869
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1619872270
 GameObject:
   m_ObjectHideFlags: 0
@@ -16772,6 +18438,94 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1735115949
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.8800001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1747360045
 GameObject:
   m_ObjectHideFlags: 0
@@ -19193,6 +20947,94 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1975321189
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.2500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1.6432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.3137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1439822
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1162973713
+      objectReference: {fileID: 0}
+    - target: {fileID: 210040495309405552, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1982233376
 GameObject:
   m_ObjectHideFlags: 0
@@ -20234,47 +22076,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &2100569480
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2100569482}
-  - component: {fileID: 2100569481}
-  m_Layer: 0
-  m_Name: GoToMenu
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2100569481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2100569480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5db0e502e63f59248ba9a095dc1cabc3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ContinueText: {fileID: 413803016}
---- !u!4 &2100569482
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2100569480}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.0965219, y: 55.461754, z: 0.09375}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2105854227
 GameObject:
   m_ObjectHideFlags: 0
@@ -20647,6 +22448,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &2124635811
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.72143
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.0041
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.24078
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401313314673126, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_Name
+      value: MontinhoDeOuro (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: PorcentagemMinimaParaAparecer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.r
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.g
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 114075786846803586, guid: 289ce2a887108714f9187f21c8912803,
+        type: 2}
+      propertyPath: Tint.b
+      value: 0.5377358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.68586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4917815437244460, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.68586
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 289ce2a887108714f9187f21c8912803, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &2143763326
 GameObject:
   m_ObjectHideFlags: 0
