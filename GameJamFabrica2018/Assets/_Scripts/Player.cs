@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     [Header("Carrinho")]
     public int CapacidadeCarrinho = 50;
     public int QuantidadeOuroCarrinho = 0;
+    public SpriteRenderer CarrinhoSpriteRenderer;
+    public Sprite[] SpritesCapacidadeCarrinho;
 
     [Header("Efeitos")]
     public GameObject EfeitoDeposito;
@@ -68,8 +70,12 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        var axisX = Input.GetAxis("Horizontal") * Velocidade;
-        var axisY = Input.GetAxis("Vertical") * Velocidade;
+        var t = (float)QuantidadeOuroCarrinho / CapacidadeCarrinho;
+        var p = (1f - t) + t * 0.25f;
+
+        var axisX = Input.GetAxis("Horizontal") * Velocidade * p;
+        var axisY = Input.GetAxis("Vertical") * Velocidade * p;
+
         var velocidadeMineiro = Mathf.Abs(axisX)+Mathf.Abs(axisY);
         animacaoMineiro.SetFloat("velocidadeMineiro", velocidadeMineiro);
                    
@@ -90,6 +96,20 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        var porcentagemCarrinho = GetPorcentagemCarrinho();
+        if (porcentagemCarrinho == 0)
+        {
+            CarrinhoSpriteRenderer.sprite = SpritesCapacidadeCarrinho[0];
+        }
+        else if(porcentagemCarrinho < 99)
+        {
+            CarrinhoSpriteRenderer.sprite = SpritesCapacidadeCarrinho[1];
+        }
+        else
+        {
+            CarrinhoSpriteRenderer.sprite = SpritesCapacidadeCarrinho[2];
+        }
+
         SR.color = QuantidadeOuroCarrinho >= CapacidadeCarrinho ? Color.red : Color.white;
         Mineirar();
 
@@ -147,7 +167,12 @@ public class Player : MonoBehaviour
 
     void UpdateCarrinhoText()
     {
-        CarrinhoText.text = "C: " + Mathf.FloorToInt(QuantidadeOuroCarrinho * 100 / CapacidadeCarrinho).ToString() + "%";
+        CarrinhoText.text = "C: " + GetPorcentagemCarrinho().ToString() + "%";
+    }
+
+    int GetPorcentagemCarrinho()
+    {
+        return Mathf.FloorToInt(QuantidadeOuroCarrinho * 100 / CapacidadeCarrinho);
     }
 
     void ApplyContactWithEnemy()
@@ -173,7 +198,7 @@ public class Player : MonoBehaviour
             if (QuantidadeOuroCarrinho > 0)
             {
                 _gm.DepositaOuro(QuantidadeOuroCarrinho);
-                Instantiate(EfeitoDeposito, transform.position, transform.rotation);
+                Instantiate(EfeitoDeposito, CarrinhoSpriteRenderer.transform.position, CarrinhoSpriteRenderer.transform.rotation);
                 QuantidadeOuroCarrinho = 0;
                 UpdateCarrinhoText();
             }
