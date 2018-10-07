@@ -16,16 +16,19 @@ public class Ouro : MonoBehaviour
     private bool removed;
     private GameObject efeitoDeMineracaoAtivo;
 
+    public int maxOuroMina;
+
 
     // Use this for initialization
     void Start()
     {
         removed = false;
-        Quantidade = Random.Range(1, 21);
+        Quantidade = Random.Range(1, maxOuroMina+1);
 
         var totalOuro = PlayerPrefs.GetInt("TotalOuro", 0);
         totalOuro += Quantidade;
-        PlayerPrefs.SetInt("TotalOuro", totalOuro);
+        //Debug.Log(totalOuro);
+        PlayerPrefs.SetInt("TotalOuro", 500);
         PlayerPrefs.Save();
     }
 
