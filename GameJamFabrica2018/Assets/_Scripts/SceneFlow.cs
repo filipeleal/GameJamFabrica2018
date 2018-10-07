@@ -9,4 +9,14 @@ public class SceneFlow : MonoBehaviour {
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+    public void Creditos()
+    {
+        //TODO: Creditos
+    }
+
+    public void Sair()
+    {
+        Application.Quit();
+    }
 }
