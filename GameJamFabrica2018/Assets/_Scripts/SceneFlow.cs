@@ -5,14 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class SceneFlow : MonoBehaviour {
 
-	public void NovoJogo()
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void NovoJogo()
     {
         SceneManager.LoadScene("SampleScene");
     }
 
     public void Creditos()
     {
-        //TODO: Creditos
+        SceneManager.LoadScene("Creditos");
     }
 
     public void Sair()
