@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(GameMaster))]
@@ -150,8 +151,15 @@ public class Player : MonoBehaviour
 
     void ApplyContactWithEnemy()
     {
-        QuantidadeOuroCarrinho = 0;
-        UpdateCarrinhoText();
+        if (QuantidadeOuroCarrinho > 0)
+        {
+            QuantidadeOuroCarrinho = 0;
+            UpdateCarrinhoText();
+        }else
+        {
+            //Inserir Game Over aqui
+            SceneManager.LoadScene("Game Over");
+        }
 
     }
 
