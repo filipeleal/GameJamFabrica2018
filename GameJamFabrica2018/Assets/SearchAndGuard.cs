@@ -49,10 +49,9 @@ public class SearchAndGuard : MonoBehaviour {
             rb.simulated = false;
             this.state = State.SLEEP;
             Invoke("Reawaken", timeAfterDamage);
-            /*
-            this.gameObject.
-            collision.gameObject.SendMessage("ApplyDamage", 10);
-            */
+           
+            collision.gameObject.SendMessage("ApplyContactWithEnemy");
+           
         }
     }
 
