@@ -32,7 +32,7 @@ public class MontinhoDeOuro : MonoBehaviour
 
         if (PlayerPrefs.GetInt("TotalOuro") > 0)
         {
-            var percent = PlayerPrefs.GetInt("Ouros") * 100f / PlayerPrefs.GetInt("TotalOuro");
+            var percent = PlayerPrefs.GetInt("Ouros") * 100f / Variaveis.Instance.TotalOurosMontanha;
 
             if (percent >= PorcentagemMinimaParaAparecer)
                 gameObject.SetActive(true);

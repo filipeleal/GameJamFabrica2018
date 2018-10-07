@@ -25,11 +25,11 @@ public class Ouro : MonoBehaviour
         removed = false;
         Quantidade = Random.Range(1, maxOuroMina+1);
 
-        var totalOuro = PlayerPrefs.GetInt("TotalOuro", 0);
-        totalOuro += Quantidade;
-        //Debug.Log(totalOuro);
-        PlayerPrefs.SetInt("TotalOuro", 500);
-        PlayerPrefs.Save();
+        //var totalOuro = PlayerPrefs.GetInt("TotalOuro", 0);
+        //totalOuro += Quantidade;
+        ////Debug.Log(totalOuro);
+        //PlayerPrefs.SetInt("TotalOuro", 500);
+        //PlayerPrefs.Save();
     }
 
     // Update is called once per frame
