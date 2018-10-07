@@ -148,6 +148,12 @@ public class Player : MonoBehaviour
         CarrinhoText.text = "C: " + Mathf.FloorToInt(QuantidadeOuroCarrinho * 100 / CapacidadeCarrinho).ToString() + "%";
     }
 
+    void ApplyContactWithEnemy()
+    {
+        QuantidadeOuroCarrinho = 0;
+        UpdateCarrinhoText();
+
+    }
 
     #region Eventos
     void OnTriggerEnter2D(Collider2D col)
