@@ -401,7 +401,7 @@ MonoBehaviour:
   Velocidade: 0.1
   VelocidadeMineracao: 1
   FrequenciaMineracao: 0.3
-  LimiteVelocidadeCarrinhoCheio: 0.1
+  LimiteVelocidadeCarrinhoCheio: 0.3
   audioSource: {fileID: 82051215708645328}
   Andando: {fileID: 8300000, guid: 892962212a4b74d1c9f578a3b6ea6439, type: 3}
   Minerando: {fileID: 0}
