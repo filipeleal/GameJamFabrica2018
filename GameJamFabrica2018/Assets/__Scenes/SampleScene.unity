@@ -651,7 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ouros: 0
-  TempoTotal: 60
+  TempoTotal: 180
   TempoEntreShakes: 13.5
   ShakeTime: 1.5
   ShakeAmplitude: 0.1
